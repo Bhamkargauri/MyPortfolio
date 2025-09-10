@@ -19,7 +19,7 @@ const Navbar = () => {
         className={open ? "menu open" : "menu"}
         onClick={() => setOpen(false)}
       >
-        <Link to="/about">About</Link>
+        <Link to="/">About</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/skills">Skills</Link>
         <Link to="/contact">Contact</Link>
