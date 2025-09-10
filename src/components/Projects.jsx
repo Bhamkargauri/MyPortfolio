@@ -1,26 +1,30 @@
+import foodImg from "src/assets/foodapp.png";
+import dailyPlanner from "src/assets/dailyplanner.png";
+import crud from "src/assets/crud.png";
+import vehicleLog from "src/assets/vehicleLog.png";
 const projects = [
   {
     id: 1,
     title: "Food Delivery App",
-    img: "src/assets/foodapp.png",
+    img: { foodImg },
     // url: "https://example.com",
   },
   {
     id: 2,
     title: "Daily Planner",
-    img: "src/assets/dailyplanner.png",
+    img: { dailyPlanner },
     // url: "https://example.com",
   },
   {
     id: 3,
     title: "Crud Operation",
-    img: "src/assets/crud.png",
+    img: { crud },
     // url: "https://example.com",
   },
   {
     id: 4,
     title: "Vehicle Maintenance Log",
-    img: "src/assets/vehicleLog.png",
+    img: { vehicleLog },
     // url: "https://example.com",
   },
 ];
@@ -33,7 +37,7 @@ const Projects = () => {
         {projects.map((p) => (
           <a key={p.id} className="card" href={p.url} target="_blank">
             <img src={p.img} alt={p.title} loading="lazy" />
-                <h3>{p.title}</h3>
+            <h3>{p.title}</h3>
           </a>
         ))}
       </div>
