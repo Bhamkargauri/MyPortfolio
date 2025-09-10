@@ -1,30 +1,30 @@
-import foodImg from "src/assets/foodapp.png";
-import dailyPlanner from "src/assets/dailyplanner.png";
-import crud from "src/assets/crud.png";
-import vehicleLog from "src/assets/vehicleLog.png";
+import crud from "../assets/crud.png";
+import dailyPlanner from "../assets/dailyplanner.png";
+import foodImg from "../assets/foodapp.png";
+import vehicleLog from "../assets/vehicleLog.png";
 const projects = [
   {
     id: 1,
     title: "Food Delivery App",
-    img: { foodImg },
+    img:  foodImg ,
     // url: "https://example.com",
   },
   {
     id: 2,
     title: "Daily Planner",
-    img: { dailyPlanner },
+    img:  dailyPlanner ,
     // url: "https://example.com",
   },
   {
     id: 3,
     title: "Crud Operation",
-    img: { crud },
+    img:  crud ,
     // url: "https://example.com",
   },
   {
     id: 4,
     title: "Vehicle Maintenance Log",
-    img: { vehicleLog },
+    img:  vehicleLog ,
     // url: "https://example.com",
   },
 ];
