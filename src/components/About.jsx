@@ -1,3 +1,5 @@
+import profileimg from "../assets/avatar.jpg";
+
 const About = () => {
   return (
     <div className="section">
@@ -14,12 +16,7 @@ const About = () => {
         start my journey in the IT industry, where I can apply my skills, gain
         real-world experience, and grow in a dynamic and supportive environment.
       </p>
-      <img
-        src="src/assets/avatar.jpg"
-        alt="Profile"
-        loading="lazy"
-        className="avatar"
-      />
+      <img src={profileimg} alt="Profile" loading="lazy" className="avatar" />
     </div>
   );
 };
